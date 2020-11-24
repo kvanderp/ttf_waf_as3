@@ -83,7 +83,7 @@ XML Profile Name was set to Default. { audit: policy = /tenanta_dev/my_webapp_ci
   <allowed_response_code>417</allowed_response_code>
   <allowed_response_code>503</allowed_response_code>
   <blocking>
-    <enforcement_mode>blocking</enforcement_mode>
+    <enforcement_mode>transparent</enforcement_mode>
     <violation name="Illegal attachment in SOAP message" id="ILLEGAL_SOAP_ATTACHMENT">
       <alarm>false</alarm>
       <block>false</block>
